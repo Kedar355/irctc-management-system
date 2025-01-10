@@ -2,7 +2,12 @@
 
 ## Problem Statement
 
-Hey there, Mr. X. You have been appointed to design a railway management system like IRCTC, where users can come on the platform and check if there are any trains available between two stations. The app will also display how many seats are available between any two stations, and the user can book a seat if the availability is greater than 0 after logging in. Since this has to be real-time and multiple users can book seats simultaneously, your code must be optimized enough to handle large traffic and should not fail while doing any bookings. If more than one user simultaneously tries to book seats, only one of the users should be able to book. Handle such race conditions while booking.
+Hey there, Mr. X. You have been appointed to design a railway management system like IRCTC, where users can come on the platform and check if there are any trains available between 2 stations. The app will also display how many seats are available between any 2 stations and the user can book a seat if the availability > 0 after logging in. Since this has to be real-time and multiple users can book seats simultaneously, your code must be optimized enough to handle large traffic and should not fail while doing any bookings.
+If more than 1 users simultaneously try to book seats, only either one of the users should be able to book. Handle such race conditions while booking.
+There is a Role Based Access provision and 2 types of users would exist :
+
+1. Admin - can perform all operations like adding trains, updating total seats in a train, etc.
+2. Login users - can check availability of trains, seat availability, book seats, get booking details, etc.
 
 ## Features
 
@@ -13,6 +18,16 @@ This project manages core IRCTC-like functionalities:
 • Differentiating user roles (admin vs. regular users)
 
 It’s divided into two main parts: a server (back-end APIs and authentication) and a client (front-end interface) to provide a smooth user experience.
+
+## Screenshots
+
+Below are some example screenshots (dummy placeholders) for demonstration:
+
+1. ![Login Page](./images/image.png)
+2. ![Register Page](./images/image1.png)
+3. ![Search Train](./images/image2.png)
+4. ![Book Ticket](./images/image3.png)
+5. ![User Bookings](./images/image4.png)
 
 ---
 
