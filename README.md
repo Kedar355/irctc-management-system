@@ -9,6 +9,8 @@ There is a Role Based Access provision and 2 types of users would exist :
 1. Admin - can perform all operations like adding trains, updating total seats in a train, etc.
 2. Login users - can check availability of trains, seat availability, book seats, get booking details, etc.
 
+---
+
 ## Features
 
 This project manages core IRCTC-like functionalities:
@@ -19,9 +21,9 @@ This project manages core IRCTC-like functionalities:
 
 It’s divided into two main parts: a server (back-end APIs and authentication) and a client (front-end interface) to provide a smooth user experience.
 
-## Screenshots
+---
 
-Below are some example screenshots (dummy placeholders) for demonstration:
+## Screenshots
 
 1. ![Login Page](./images/image.png)
 2. ![Register Page](./images/image1.png)
