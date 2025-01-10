@@ -1,4 +1,3 @@
-// UserLogin.js
 import React from "react";
 import {
   Box,
@@ -81,10 +80,7 @@ function UserLogin() {
       if (!response.ok) {
         throw new Error("Invalid credentials");
       }
-
-      // Expecting { token, email, ... } from your backend
       const data = await response.json();
-
       // Save token in localStorage
       if (data.token) {
         localStorage.setItem("token", data.token);

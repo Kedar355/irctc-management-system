@@ -1,4 +1,3 @@
-// App.jsx
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import {
   Container,
@@ -9,12 +8,9 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import React from "react";
-// import AdminLogin from "./components/AdminLogin";
 import UserLogin from "./components/UserLogin";
 import RegisterUser from "./components/RegisterUser";
-// import BookTicket from "./components/BookTicket";
 import Navbar from "./components/Navbar";
-// import AllTrains from "./components/AllTrains";
 
 const theme = createTheme({
   palette: {
@@ -59,8 +55,6 @@ function App() {
         return <UserLogin />;
       case "register":
         return <RegisterUser />;
-      // case "book":
-      //   return <BookTicket />;
       default:
         return <UserLogin />;
     }

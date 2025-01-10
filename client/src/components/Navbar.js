@@ -1,11 +1,8 @@
-// Navbar.jsx
 import React from "react";
 import { Tabs, Tab, Paper, Box, Menu, MenuItem, Button } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-// import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
 import PersonIcon from "@mui/icons-material/Person";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
-// import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
 
 function Navbar({ currentPage, setCurrentPage, isMobile }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -25,10 +22,8 @@ function Navbar({ currentPage, setCurrentPage, isMobile }) {
   };
 
   const menuItems = [
-    // { label: "All Trains", value: "trains", icon: <AdminPanelSettingsIcon /> },
     { label: "Login", value: "user", icon: <PersonIcon /> },
     { label: "Register", value: "register", icon: <HowToRegIcon /> },
-    // { label: "Book Ticket", value: "book", icon: <ConfirmationNumberIcon /> },
   ];
 
   if (isMobile) {

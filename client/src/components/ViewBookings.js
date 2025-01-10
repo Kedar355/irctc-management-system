@@ -1,4 +1,3 @@
-// ViewBookings.js
 import React from "react";
 import { Box, Typography, Paper, Alert, CircularProgress } from "@mui/material";
 
